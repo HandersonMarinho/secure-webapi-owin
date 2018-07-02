@@ -1,0 +1,4 @@
+packages/
+.vs/
+SecureWebApi/bin/
+SecureWebApi/obj/

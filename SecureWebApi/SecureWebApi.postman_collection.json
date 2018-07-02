@@ -1,0 +1,112 @@
+{
+	"id": "0197fbe8-c6bb-4a34-a670-c8167d3929fc",
+	"name": "SecureWebApi",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"90464b7f-3d71-4945-aad7-6a269644ecf8",
+		"0a4b4b2f-5231-488a-8555-c449e5c64565"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "0a4b4b2f-5231-488a-8555-c449e5c64565",
+			"name": "get-authorized-endpoint",
+			"url": "http://localhost:58082/api/customers/",
+			"description": "",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer _bhU09McuEMSPoiMRGSu3iHU3_FaJ30Nrk4tGBt_8YkpGuW0NRWHSr56FAvut013wvvo533EmbzYYGBFoO1IvJ15tCbAy8QWZrA4bHK45j9A2WRtwNGQILb0OVkokYjeTJuA8-roAf4jgjxtacI1TPALCNqTaPxAP-5sYqDKrI7zBOyeNg5c4Z19AhF3NVw6y169UhwlG6nDMjFl_a5XfamMAiGd-Yxn6hNt8spgGIg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer _bhU09McuEMSPoiMRGSu3iHU3_FaJ30Nrk4tGBt_8YkpGuW0NRWHSr56FAvut013wvvo533EmbzYYGBFoO1IvJ15tCbAy8QWZrA4bHK45j9A2WRtwNGQILb0OVkokYjeTJuA8-roAf4jgjxtacI1TPALCNqTaPxAP-5sYqDKrI7zBOyeNg5c4Z19AhF3NVw6y169UhwlG6nDMjFl_a5XfamMAiGd-Yxn6hNt8spgGIg\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "90464b7f-3d71-4945-aad7-6a269644ecf8",
+			"name": "request-token",
+			"url": "http://localhost:58082/api/token",
+			"description": "",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		}
+	]
+}
