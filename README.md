@@ -1,7 +1,7 @@
 # Overview
 
-This is basic and lightweight ASP.NET project showing how to create a secure webapi using 
-Bearer authentication with Microsoft Owin and OAuth.
+This is a basic and lightweight ASP.NET project showing how to create a secure webapi using 
+bearer authentication with Owin and OAuth.
 
 # Stack
 
