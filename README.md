@@ -3,7 +3,7 @@
 This is a basic and lightweight ASP.NET project showing how to create a secure webapi using 
 bearer authentication with Owin and OAuth.
 
-By default the api is using admin@admin as a valid credential just to show the functionality
+By default the api is using **admin@admin** as a valid credential just to show the functionality
 
 # Stack
 
