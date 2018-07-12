@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 
-namespace SecureWebApi.Controllers
+namespace Secure.Api.Controllers
 {
     /// <summary>
     /// Basic controller used as example to test an authorized endpoint.

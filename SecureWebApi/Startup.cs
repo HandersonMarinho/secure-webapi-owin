@@ -4,7 +4,7 @@ using Owin;
 using System;
 using System.Web.Http;
 
-namespace SecureWebApi
+namespace Secure.Api
 {
     public class Startup
     {

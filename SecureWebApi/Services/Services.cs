@@ -3,7 +3,7 @@
 /// <summary>
 /// Fake service used to test injection inside of http pipeline.
 /// </summary>
-namespace SecureWebApi
+namespace Secure.Api
 {
     public class User
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureWebApi", "SecureWebApi\SecureWebApi.csproj", "{3A6AC712-6F82-4AFF-A46B-9B2BBE51A169}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secure.Api", "SecureWebApi\Secure.Api.csproj", "{3A6AC712-6F82-4AFF-A46B-9B2BBE51A169}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

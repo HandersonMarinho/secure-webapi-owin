@@ -6,7 +6,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace SecureWebApi
+namespace Secure.Api
 {
     public class AuthorizationServerProvider : OAuthAuthorizationServerProvider
     {
