@@ -2,3 +2,7 @@ packages/
 .vs/
 SecureWebApi/bin/
 SecureWebApi/obj/
+Secure.Abstraction/bin/
+Secure.Abstraction/obj/
+Secure.Service/bin/
+Secure.Service/obj/
